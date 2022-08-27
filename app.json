@@ -81,6 +81,26 @@
 			"required": false,
 			"value": "_Antispam Detected &mention kicked_"
 		},
+                "BOT_INFO": {
+                         "description": "ownername,botname,imagelink",
+                         "required": true,
+                         "value": "𝐙𝐄𝐘𝐑𝐎𝐗,𝐌𝐄𝐓𝐑𝐎-𝐁𝐎𝐓,"
+                },
+                "MENU_MEDIA": {
+                         "description": "mediaType,medialink",
+                         "required": true,
+                         "value": "https://i.imgur.com/l0t8EEC.jpeg,https://i.imgur.com/S1PcgyU.mp4"
+                },
+                "FIND_API": {
+                         "description": "token,secret",
+                         "required": true,
+                         "value": "your token, your secret"
+                },
+		"FOOTERMARK": {
+			"description": "Footer Text.",
+			"required": true,
+			"value": "`©𝐙𝐄𝐘𝐑𝐎𝐗`"
+		},
 		"ANTIWORDS_MSG": {
 			"description": "Message send when antiword.",
 			"required": false,
